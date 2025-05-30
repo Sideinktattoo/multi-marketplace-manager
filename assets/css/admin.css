@@ -1,0 +1,71 @@
+/* General Styles */
+.mmp-report-filters {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+}
+
+.mmp-report-filters select,
+.mmp-report-filters input {
+    margin-right: 10px;
+}
+
+.mmp-summary-card {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    padding: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    min-width: 150px;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+}
+
+.mmp-summary-card h3 {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.mmp-summary-value {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Tables */
+.wp-list-table .column-id {
+    width: 5%;
+}
+
+.wp-list-table .column-actions {
+    width: 25%;
+}
+
+/* Buttons */
+.button-danger {
+    background: #dc3232;
+    border-color: #dc3232;
+    color: #fff;
+}
+
+.button-danger:hover {
+    background: #a00;
+    border-color: #a00;
+    color: #fff;
+}
+
+/* Forms */
+.form-table th {
+    width: 250px;
+}
+
+/* Responsive */
+@media (max-width: 782px) {
+    .mmp-summary-card {
+        display: block;
+        margin-right: 0;
+    }
+}
