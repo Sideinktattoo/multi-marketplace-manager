@@ -1,0 +1,22 @@
+{
+    "name": "yourname/multi-marketplace-manager",
+    "description": "WooCommerce Multi Marketplace Manager Plugin",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=7.4",
+        "ext-simplexml": "*",
+        "ext-json": "*"
+    },
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your@email.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MMP\\": "includes/"
+        }
+    }
+}
